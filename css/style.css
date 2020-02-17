@@ -1,3 +1,8 @@
 h1{
     text-align: center;
 }
+
+.button-class{
+    font-size: 2em;
+    text-align: center;
+}
