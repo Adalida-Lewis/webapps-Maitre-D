@@ -4,5 +4,15 @@ h1{
 
 .button-class{
     font-size: 2em;
-    text-align: center;
+    text-decoration: none;
+    
+}
+/* How to get rounded corner input boxes
+https://codepen.io/HTML_CSS_JavaScript/pen/QvbzmZ*/
+.rounded-corners{
+    border-radius: 10px;
+    border: 1px solid light-grey;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;  
 }

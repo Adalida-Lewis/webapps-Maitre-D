@@ -11,38 +11,57 @@
             <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--Link to external JavaScript-->
         <link rel="javascript" type="text/javascript" href="javascript/logic.js">
-    <title>Hello, world!</title>
+    <title>Maitre D</title>
   </head>
   <body class="container">
-      <header>
-          <h1>Maitre D</h1>
-      </header>
-      <hr/>
+    <header>
+        <h1>Maitre D</h1>
+    </header>
+    <hr/>
+    <div class="row">
+    <div class="col-2">
+        <label class="float" for="total">Total: </label>
+    </div>
+        <div class="col-10">
+          <input id="total" type="number" class="form-control rounded-corners" placeholder="Enter a number"> 
+        </div>
+    </div>
       
-      <label class="float" for="total">Total: </label>
-      <input id="total" type="number" class="form-control " placeholder="Enter a number">
+      <br/>
+      
+    <div class="row">
+        <div class="col">
+            <div>Tip:<span id="tip"> </span></div>
+        </div>
+        <div class="col-2">
+            <label for="rate">Rate: </label>
+        </div>
+        <div class="col-6">
+            <input id="rate" type="number" class="form-control rounded-corners" placeholder="Enter Rate">
+        </div>
+    </div>
+      
+    <div>Tax:<span id="tax"> </span></div>
+      
+        <br/>
 
-      <br/>
+    <div>Grand Total:<span id="grand-total"> </span></div>
       
-      <div>Tip:<span id="tip"> </span></div>
+        <br/>
       
-      <br/>
-      
-      <label for="rate">Rate: </label>
-      <input id="rate" type="number" class="form-control" placeholder="Enter Rate">
-      
-      <br/>
-      
-      <div>Tax:<span id="tax"> </span></div>
-      
-      <br/>
 
-      <div>Grand Total:<span id="grand-total"> </span></div>
-      
-      <br/>
-      
-      <button type="button" class=" button-class btn btn-link" id="calc">Calculate</button>
 
+<div class="row">
+    <div class="col">
+      
+    </div>
+    <div class="col">
+          <button type="button" class=" button-class btn btn-link" id="calc">Calculate</button>
+    </div>
+    <div class="col">
+      
+    </div>
+  </div>
       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
